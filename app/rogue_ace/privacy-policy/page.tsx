@@ -187,7 +187,7 @@ export default function PrivacyPolicyPage() {
                 <tr>
                   <td className="border border-gray-300 px-4 py-2">B. Personal information as defined in the California Customer Records statute</td>
                   <td className="border border-gray-300 px-4 py-2">Name, contact information, education, employment, employment history, and financial information</td>
-                  <td className="border border-gray-300 px-4 py-2 text-center">YES</td>
+                  <td className="border border-gray-300 px-4 py-2 text-center">NO</td>
                 </tr>
                 <tr>
                   <td className="border border-gray-300 px-4 py-2">C. Protected classification characteristics under state or federal law</td>
