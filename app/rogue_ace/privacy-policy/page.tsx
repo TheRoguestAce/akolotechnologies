@@ -25,9 +25,9 @@ export default function PrivacyPolicyPage() {
           </p>
           
           <div className="space-y-4">
-            <p><strong>What personal information do we process?</strong> When you visit, use, or navigate our Services, we may process personal information depending on how you interact with us and the Services, the choices you make, and the products and features you use.</p>
+            <p><strong>What personal information do we process?</strong> When you visit, use, or navigate our app, we will only process information that you provide to us, such as usernames.</p>
             
-            <p><strong>Do we process any sensitive personal information?</strong> Some of the information may be considered "special" or "sensitive" in certain jurisdictions, for example your racial or ethnic origins, sexual orientation, and religious beliefs. We do not process sensitive personal information.</p>
+            <p><strong>Do we process any sensitive personal information?</strong> Some information may be considered "special" or "sensitive" in certain jurisdictions, for example your racial or ethnic origins, sexual orientation, and religious beliefs. We do not process these types of sensitive personal information.</p>
             
             <p><strong>Do we collect any information from third parties?</strong> We do not collect any information from third parties.</p>
             
@@ -82,7 +82,7 @@ export default function PrivacyPolicyPage() {
           </ul>
           
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL INFORMATION?</h2>
-          <p><em>In Short: We only process your personal information when we believe it is necessary and we have a valid legal reason (i.e., legal basis) to do so under applicable law, like with your consent, to comply with laws, to provide you with services to enter into or fulfill our contractual obligations, to protect your rights, or to fulfill our legitimate business interests.</em></p>
+          <p><em>In Short: We only process your personal information when we believe it is necessary and we have a valid legal reason (i.e., legal basis) to do so under applicable law, like with your consent, to comply with laws, to provide you with services to enter into or fulfill our contractual obligations, to protect your rights, or to fulfill our legitimate business interests. We will only process infomation that you provide to us.</em></p>
           
           <p><em>If you are located in the EU or UK, this section applies to you.</em></p>
           <p>The General Data Protection Regulation (GDPR) and UK GDPR require us to explain the valid legal bases we rely on in order to process your personal information. As such, we may rely on the following legal bases to process your personal information:</p>
@@ -212,7 +212,7 @@ export default function PrivacyPolicyPage() {
                 <tr>
                   <td className="border border-gray-300 px-4 py-2">G. Geolocation data</td>
                   <td className="border border-gray-300 px-4 py-2">Device location</td>
-                  <td className="border border-gray-300 px-4 py-2 text-center">NO</td>
+                  <td className="border border-gray-300 px-4 py-2 text-center">YES</td>
                 </tr>
                 <tr>
                   <td className="border border-gray-300 px-4 py-2">H. Audio, electronic, sensory, or similar information</td>
