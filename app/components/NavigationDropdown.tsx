@@ -7,12 +7,21 @@ export default function NavigationDropdown() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <div className="relative">
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        className="text-gray-900 hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium transition-colors"
-      >
+    <div 
+      className="relative"
+      onMouseEnter={() => setIsOpen(true)}
+      onMouseLeave={() => setIsOpen(false)}
+    >
+      <button className="text-gray-900 hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium transition-colors flex items-center gap-1">
         The Rogue Ace
+        <svg 
+          className={`w-4 h-4 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`} 
+          fill="none" 
+          stroke="currentColor" 
+          viewBox="0 0 24 24"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+        </svg>
       </button>
       
       {isOpen && (
@@ -20,33 +29,22 @@ export default function NavigationDropdown() {
           <Link 
             href="/info" 
             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-colors"
-            onClick={() => setIsOpen(false)}
           >
             Info
           </Link>
           <Link 
             href="/privacy-policy" 
             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-colors"
-            onClick={() => setIsOpen(false)}
           >
             Privacy Policy
           </Link>
           <Link 
             href="/contact-info" 
             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-colors"
-            onClick={() => setIsOpen(false)}
           >
             Contact Info
           </Link>
         </div>
-      )}
-      
-      {/* Click outside to close dropdown */}
-      {isOpen && (
-        <div 
-          className="fixed inset-0 z-40" 
-          onClick={() => setIsOpen(false)}
-        />
       )}
     </div>
   )
