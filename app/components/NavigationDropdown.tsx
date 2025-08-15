@@ -26,9 +26,7 @@ export default function NavigationDropdown() {
       
       {isOpen && (
         <div 
-          className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-50 border border-gray-200"
-          onMouseEnter={() => setIsOpen(true)}
-          onMouseLeave={() => setIsOpen(false)}
+          className="absolute right-0 mt-0 w-48 bg-white rounded-md shadow-lg py-1 z-50 border border-gray-200"
         >
           <Link 
             href="/info" 
