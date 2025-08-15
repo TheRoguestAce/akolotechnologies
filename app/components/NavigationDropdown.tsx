@@ -29,19 +29,19 @@ export default function NavigationDropdown() {
           className="absolute right-0 mt-0 w-48 bg-white rounded-md shadow-lg py-1 z-50 border border-gray-200"
         >
           <Link 
-            href="/info" 
+            href="/rogue_ace/info" 
             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-colors"
           >
             Info
           </Link>
           <Link 
-            href="/privacy-policy" 
+            href="/rogue_ace/privacy-policy" 
             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-colors"
           >
             Privacy Policy
           </Link>
           <Link 
-            href="/contact-info" 
+            href="/rogue_ace/contact-info" 
             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-colors"
           >
             Contact Info
