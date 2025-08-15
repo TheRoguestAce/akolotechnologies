@@ -50,9 +50,9 @@ export default function InfoPage() {
           
           <div className="bg-yellow-50 p-4 rounded-lg">
             <p className="text-yellow-800">
-              <strong>Note:</strong> Detailed game rules and mechanics are available within the app. 
-              Download "The Rogue Ace" to start your card game adventure! The game is free to play and 
-              has no in-app purchases or ads.
+              Detailed game rules and mechanics are available within the app. 
+              Download "The Rogue Ace" to start your card game adventure! 
+              The game is free to play and has no in-app purchases or advertisements.
             </p>
           </div>
         </div>
@@ -63,7 +63,7 @@ export default function InfoPage() {
         <div className="text-gray-700 space-y-4">
           <p className="text-lg">
             The Rogue Ace is owned and operated by Akolo Technologies. We're committed to 
-            providing an engaging and enjoyable gaming experience for all players.
+            providing an engaging and enjoyable experience for all players.
           </p>
           
           <div className="bg-gray-50 p-6 rounded-lg">
@@ -79,8 +79,8 @@ export default function InfoPage() {
                 </a>
               </p>
               <p className="text-gray-700">
-                <strong>Suggestions:</strong> 
-                Add suggestions directly through the app for the best experience.
+                <strong>Suggestions: </strong> 
+                You can add suggestions through the appr
               </p>
             </div>
           </div>
